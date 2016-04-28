@@ -1,0 +1,186 @@
+/* #Tablet (Portrait) Note: Design for a width of 768px
+================================================== */
+@media only screen and (min-width: 768px) {
+		
+		.footer-bg-mob{ background:url(../img/footer-bg-mob.png) repeat-x 0 0 #262626;}
+		.bottom_footer { color:#fff;}
+		.bottom_footer a:hover {
+			color: #fff;
+			
+		}
+		.blocksocial h4{ margin-bottom:18px !important;
+		
+		
+		
+		}
+		#menu-wrap {display:none;}
+		#specials{}
+		
+		#specials h4{ 
+			/*margin-bottom:0px;
+			-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #D8D8D8 #D8D8D8 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;*/
+			
+			
+			
+			}
+		#specials .block_content{
+			border:1px solid #d8d8d8;
+			padding:33px 20px 19px;
+		}
+		#specials .block_content a.products_block_img{
+			width:100%;
+			margin:0 auto 34px;
+			display:block;
+			text-align:center;
+		}
+		#specials .block_content a.products_block_img img{
+			margin:0 auto;
+			text-align:center;
+		}
+		#specials ul li > div{ width:auto;}
+		#specials ul li > div p{ padding-top:5px; color:#727272; font-size:13px; line-height:19px; margin-bottom:9px;display: none;}
+		#specials ul li > div .price{ color:#e60315; font-size:12px; font-family:Arial, Helvetica, sans-serif, "Trebuchet MS"; font-weight:normal;}
+		#specials ul li > div .price-discount{ color:#619a0c;}
+		#specials ul li > div .reduction{ color:#363636;}
+		#specials ul li{ padding-bottom:0; border:none; margin-bottom:7px;}
+		#attributes select{margin:-34px 391px 0 133px;}
+		.attribute_list > a{/*margin:-30px 313px 0 0;*/float:right;}
+		.row_1 { padding: 6px 0 6px 0;}
+	}
+@media only screen and (max-width: 767px) {
+		#categories_block_left { display:none;}	
+		.page_product_box.accordion h3 .icon-toggle{top:1px !important;}
+		.page_product_box.accordion h3.activeTab{height:35px;}
+		#attributes select{margin:0 307px 0 0;float:left;}
+		.attribute_list > a{float:right;}
+		.idTabHrefShort.activeTab{padding-top:8px;}
+		#attributes select{width:18% !important;}
+		
+		.page_product_box a.prev, .page_product_box a.next{margin-top:69px;}
+		.idTabHrefShort.activeTab{display:none;}
+		.idTabHrefShort{display:none !important;}
+		
+		
+		
+	}
+@media only screen and (min-width: 950px) and (max-width: 1199px) {	
+			#categories_block_left ul.tree li a{ font-size:15px;}
+			.mnf_sup_list li .left_side {width:327px;}
+			.products_block ul li > div {float: left;margin-top: -4px;padding: 0;width: 86px;}
+			#subcategories ul li{ width:160px;}
+			#subcategories ul li.product_list_4  { margin-right:0;}
+			#subcategories ul li.product_list_5{ margin-right:20px;}
+			footer .block .list-footer li a{padding-right:10px;}
+			table#cart_summary .cart_discount_price .div_cart_quantity_delete a { margin-top:3px;}
+			.products_block ul li .reduction {margin-left: 20px;margin-right: 0;}
+			.bottom_pagination{ margin-top:10px;}
+			#layered_form div div ul {position: relative;}
+			#layered_form .select {width:220px;height:32px;left:0!important; top:15px!important;}
+			.order_delivery .address.first_item, ul#address_delivery {width: 41%;}
+			.order_delivery .address.alternate_item, ul#address_invoice {width: 42%;}
+			.addresses #id_address_delivery {width: 329px;}
+			#minic_slider{ margin-bottom:15px;}
+			h1, .column .block h4, .center_column .block h4, #layered_block_left h3{ margin-bottom:0px;}
+			.main_page_products ul li{ margin-bottom:20px;}
+			
+			
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	#ul_layered_price_0 li.layered_list{ font-size:12px;}
+	.column .block .store_list, .block_content{ padding:10px;}
+	.bottom_footer{ bottom:5px;}
+	#minic_slider{ margin-bottom:10px;}
+			h1, .column .block h4, .center_column .block h4, #layered_block_left h3{ /*margin-bottom:10px;*/}
+	#categories_block_left ul.tree li a{ font-size:15px; padding:7px 12px 8px 6px;}	
+	#categories_block_left ul.tree li ul li a{ font-size:13px; font-weight:400; padding-left:20px;}
+	#categories_block_left{ padding:4px;}
+			.main-mobile-menu{ display:block; margin-left:20px; margin-top:-44px;}
+			#header_logo { top:56px;}
+			#search_block_top input.search_query{ width:180px;}
+			
+			#header {padding: 0 0 20px;}
+			#header_user #shopping_cart .ajax_cart_product_txt,#header_user #shopping_cart .ajax_cart_product_txt_s{ display:none!important;}
+			/* ************************************************************************************************
+			  CATEGORY PAGE
+			************************************************************************************************ */
+			.product_sort {margin-right:20px;}
+			.product_sort form {margin: 0;}
+			.bottom_pagination {margin-top:10px;}
+			#subcategories { margin-bottom:0px;}
+			#subcategories ul li { width:119px;}
+			#subcategories ul li.product_list_6{ margin-right:10px;}
+			#subcategories ul li.product_list_4{ margin-right:0;}
+			#product_comparison . footable-row-detail-inner div strong{ font-size:30px;}
+			.instant .grid li h3 {min-height: 54px;}
+			.grid li h3 {min-height: 54px;}
+			#product_comparison .product_image_div a img{ width:70px;}
+			#product_comparison .product_image_div span { width:30px;}
+			#product_comparison th{white-space: normal; padding:5px; text-align:center;}
+			#ul_layered_price_0 span, .layered_weight > ul.store_list_filter > li span {margin: 5px 19px 19px 0;min-width: 30px;}
+			.products_block ul li .reduction {margin-left: 0;margin-right: 0;}
+			#layered_form div div ul {position: relative;}
+			
+			
+			#layered_form .select {
+				width:166px;
+				height:32px;
+				left:0!important; top:15px!important;
+			}
+			#cluetip {
+				left:50% !important;
+				margin-left:-225px;	
+			}
+			/* ************************************************************************************************
+			  BOX COLUMN
+			************************************************************************************************ */
+			.products_block ul li > div {width:72px;}
+			.products_block ul li > div a.lnk_more i{ display:none;}
+			.products_block ul li a.products_block_img {width: 60px;}
+			#contact_block p.tel{ margin-left:28px;}
+			
+			/* ************************************************************************************************
+			 CONTACT FORM
+			************************************************************************************************ */
+			#contact_form textarea#message {height: 200px;width:534px;}
+			#contact_form p.submit{ padding-top:20px;}
+			#contact_form p{ padding-top:7px; padding-left:0;}
+			#contact_form p.upload-file{ display:none;}
+			#contact_form .text input, #contact_form .password input{ width:100%;}
+			#contact_form select{ width:100%;}
+			#contact_form .select select { width:100%;}
+			/* ************************************************************************************************
+			 MANUFACTURE
+			************************************************************************************************ */
+			.mnf_sup_list li .left_side { float:none; padding: 0 0 0 0px;width:100%; border:none;}
+			.mnf_sup_list li .right_side{ float:none; border:none;  height: auto;min-height: auto; padding-left:0;}
+			.mnf_sup_list li .des-small { display:none;}
+			.mnf_sup_list li .logo{ margin-right:20px;}
+			.mnf_sup_list li .logo img{ margin-top:0;}
+			.mnf_sup_list li .left_side h3 a{margin-top:-3px;}
+			.mnf_sup_list li .left_side h3{ margin-top:13px;}
+			/* ************************************************************************************************
+			 ORDER
+			************************************************************************************************ */
+			footer .block h4{ margin-top:14px;}
+			table#cart_summary td.tdfirst { width: 83%;}
+			#order-list .history_detail .color-myaccount{ display:block;}
+			.list-order-step li {height: 250px;}
+			.list-order-step .img-order {margin-bottom:55px;}
+			.multishipping-cart .cart_ref{ padding:5px!important;}
+			table.multishipping-cart td {padding: 5px !important;}
+			
+			.order_delivery .address.first_item, ul#address_delivery {width:39%;}
+			.order_delivery .address.alternate_item, ul#address_invoice {width:39%;}
+			.addresses #id_address_delivery {width:100%;}
+}
+@media only screen and (min-width: 768px) {
+	.top_up { margin-top:-57px;}
+	.footer-bg-mob .block ul.toggle_content { display:block !important; height:100% !important; opacity:1 !important}	
+}

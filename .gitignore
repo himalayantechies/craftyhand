@@ -1,0 +1,11 @@
+cgi-bin/*
+.ftpquota
+.settings/*
+.buildpath
+.project
+error_log
+cache/smarty/cache/*
+cache/smarty/compile/*
+img/c/*
+img/tmp/*
+imt/p/*

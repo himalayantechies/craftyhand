@@ -1,0 +1,77 @@
+/* #Mobile (Landscape) width of 480px
+================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+				
+			/* ************************************************************************************************
+			MOBILE MENU TOP  CURRENCIES   LANGUAGES    USER INFO
+			************************************************************************************************ */	
+			.blockuserinfo.header-box{font-size:11px;right:94px !important;top:5px;width:65%;}
+	.icon-unlock:before{font-size:11px; line-height:16px;}
+	.blockuserinfo a span{margin:-5px 0 0 !important;}
+	#currencies_block_top2 li{float:left !important;font-size:11px !important;margin:42px 0 0 1px !important;}
+	.blockuserinfo a{padding:13px 0 0 16px !important;}
+	
+			
+			
+			body#index .instant + #right_column {display:none;}
+			#header_user{ /*top:150px;*/ top:37%;}
+				.attribute_list > a{margin:-28px 309px 0 0 !important;}
+
+			#header #cart_block{ top:184px;}
+			#mobilelink {width: 178px;}
+			#countries_2 .countries_ul, #setCurrency .currencies_ul {width: 179px;}
+			.alert_cart{ width:420px; left:50%; margin-left:-210px;}
+			/* ************************************************************************************************
+			HOMEFEATURED
+			************************************************************************************************ */	
+			#featured_products ul li .product_image {float:none;height: 215px;width:200px;margin:0 auto}
+			#featured_products ul li h5{ width:180px; float:none; padding-top:10px; min-height:25px;}
+			#featured_products ul li .product_descr{ width:180px; float:none; font-size:12px; display:none;}
+			#columns #featured_products ul li h5 a{ font-size:16px;}
+			
+			/* ************************************************************************************************
+			BOX COL
+			************************************************************************************************ */	
+			.products_block ul li > div {width:348px;}
+			#newsletter_block_left input[type="email"] {width: 100%;}
+			.column #cart_block .products .price {width: 301px;}
+			#layered_form .select {width:460px;}
+			#layered_form div div ul{ position:relative;}
+			
+			/* ************************************************************************************************
+			STORE PAGE
+			************************************************************************************************ */	
+			div#stores_block p.text input {width:407px;height:35px; line-height:35px;}
+			div#stores_block p.select select{height:35px; line-height:35px;}
+			
+			/* ************************************************************************************************
+			PRODUCT LIST
+			************************************************************************************************ */
+			#subcategories ul li { width:141px;}
+			#subcategories ul li.product_list_3 {}
+			#subcategories ul li.product_list_4 {}
+			#subcategories ul li .lnk_more{ min-height:28px}
+			.product_sort #productsSortForm select { width:420px;}
+			.row_compare_mobile{ width:100%; overflow:auto;}
+			/**********************************************************************************************
+			LOGIN PAGE									
+			***********************************************************************************************/
+			p.cart_navigation .exclusive, p.cart_navigation .exclusive_large {float:right; margin-bottom:0px; margin-right:0px;}
+			
+			/**********************************************************************************************
+			ORDER PAGE									
+			***********************************************************************************************/
+			.list-order-step li {height: auto;width:380px;}
+			.list-order-step .img-order {height: 136px;}
+			.list-order-step .price-order {padding-left:0px;}
+			table#cart_summary td.cart_product {width: 146px;}
+			table#cart_summary .min-with-td {display: inline-block;font-weight: normal;min-width:100px;}
+			form#voucher fieldset p input.discount_name {width: 335px;}
+			table#cart_summary td.tdfirst {width: 77%;}
+			#sendOrderMessage select{ width:398px;}
+			/*clue tip*/
+			#cluetip {
+				left:50% !important;
+				margin-left:-225px;	
+			}
+}
